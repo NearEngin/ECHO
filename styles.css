@@ -248,6 +248,7 @@ footer {
   font-size: 0.9rem;
 }
 .member-card {
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -259,7 +260,7 @@ footer {
   backdrop-filter: blur(4px);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   max-width: 500px;
-  margin: 10px auto;
+  margin: 10px autp;
 }
 
 .member-card:hover {
