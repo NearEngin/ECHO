@@ -109,6 +109,20 @@ header p {
   justify-content: space-between;
 }
 
+@media (max-width: 768px) {
+  .event-card {
+    background-color: #00000095;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  max-width: 80%;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+}
+
 .event-card:hover {
   transform: translateY(-5px);
 }
