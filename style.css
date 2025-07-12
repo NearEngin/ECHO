@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0d0d0d;
+  color: #000000;
+
+}
+
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(135deg, #040026, #000000);
+animation: fadeInUp 1s ease-in-out;
+
+}
+
+.content h1 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+.content p {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  color: #c2c2c2;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 3%;
+
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #ff9900;
+  color: #1c1c1c;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #704100b9;
+}
+
+.logo{
+    width: 50%;
+}
+
+@media (min-width: 768px) {
+.logo{
+    width: 25%;
+}
+}
+
+
+@media (max-width: 768px) {
+  /* CSS here applies only to screens 768px wide or less (tablets and phones) */
+.content p {
+  font-size: 0.9rem;
+  margin-top: 1.5rem;
+  color: #c2c2c2;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 8%;
+
+}
+}
