@@ -483,4 +483,8 @@ button:hover {
     display: block;
   }
 }
+.logo{
+  transition-duration: 0.5s;
+  
+}
 
