@@ -1,18 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ECHO</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <div class="hero">
-    <div class="content">
-      <img class="logo" src="../images/echologo.png" alt="ECHO">
-      <p>ECHO (Electronics & Communication Heuristics Organization) is the official student-staff association of the ECE Department at FISAT, launched in 2004. It aims to foster holistic student development and promote self-learning through technical events, competitions, and discussions.</p>
-      <a href="./indexhero.html" class="btn">Explore</a>
+
+<body id="home">
+  <nav>
+    <a href="./index.html"><img class="logo" style="height: 45px;" src="./images/echologo.png" alt="logo"></a>
+
+
+
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+
+    <ul class="nav-links">
+      <li><a href="./index.html#home">Home</a></li>
+      <li><a href="./members.html">Members</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h2>Where Ideas <span style="color: rgb(255, 140, 0);">ECHO</span>, Future ignites</h2>
+    <p>Join a vibrant community of engineers, researchers, and creators building the future through electronic
+      technologies.</p>
+    <div class="buttons">
+      <button onclick="location.href='events.html'">Events</button>
+      <button onclick="location.href='learnmore.html'">Learn More</button>
     </div>
-  </div>
+  </section>
+
+
+
+
 </body>
+<footer>
+  <p>&copy; 2025-2026 ECHO</p>
+</footer>
+</body>
+
 </html>
