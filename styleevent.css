@@ -221,3 +221,7 @@ header p {
     display: block;
   }
 }
+
+nav .logo::after{
+background-color: #00000000;
+}
