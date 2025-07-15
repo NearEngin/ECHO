@@ -15,7 +15,11 @@ html {
   font-family: 'Segoe UI', sans-serif;
 }
 
-
+@media screen and (max-width: 600px) {
+.logo .hidelogo {
+    visibility: hidden;
+  }
+}
 
 
 .container{
@@ -474,8 +478,11 @@ button:hover {
     left: 0;
     right: 0;
     border-radius: 5px;
-    background: #000000f4;
-    height: 300x;
+    background: #000000da;
+    backdrop-filter: blur(5px);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 325px;
     flex-direction: column;
     align-items: center;
     display: none;
