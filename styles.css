@@ -15,9 +15,9 @@ html {
   font-family: 'Segoe UI', sans-serif;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 .logo .hidelogo {
-    visibility: hidden;
+    display: none;
   }
 }
 

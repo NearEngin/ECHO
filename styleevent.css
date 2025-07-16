@@ -225,3 +225,9 @@ header p {
 nav .logo::after{
 background-color: #00000000;
 }
+
+@media screen and (max-width: 800px) {
+.logo .hidelogo {
+    display: none;
+  }
+}
