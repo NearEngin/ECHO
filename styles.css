@@ -770,7 +770,7 @@ background-color: #00000000;
     }
 
     .image-row img:hover {
-      transform: scale(1.03);
+      transform: scale(1.2);
     }
 
     @media (max-width: 768px) {
@@ -778,3 +778,48 @@ background-color: #00000000;
         grid-template-columns: 1fr;
       }
     }
+
+    .grid-wrapper-cisc {
+      display: grid;
+      gap: 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .image-row-cisc {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      background:#dcdcdc;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    }
+
+    .image-row-cisc img {
+      width: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .image-row-cisc img:hover {
+      transform: scale(1.2);
+    }
+
+    @media (max-width: 768px) {
+      .image-row-cisc {
+        grid-template-columns: 1fr;
+      }
+    }   
+
+@keyframes fadeInUp {
+  from {  
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
